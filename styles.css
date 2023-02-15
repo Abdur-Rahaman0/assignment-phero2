@@ -1,0 +1,91 @@
+/* font added */
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+  /* common styles and utilities */
+
+  *{
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header{
+    background: rgba(255, 144, 14, 0.1);
+   }
+
+  /* navigation styles started */
+   
+  .navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  .nav-logo{
+    font-weight: 700;
+    font-size: 45px;
+    margin-left: 228px;
+  }
+
+  .nav-items ul{
+    display: flex;
+    gap:16px;
+    margin-right:228px;
+    
+  }
+
+  .nav-items ul li {
+    list-style: none;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+
+  /* navigation styles ended */
+
+  .new-arc{
+    margin-top: 110px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+  }
+
+  .new-arc-info{
+    width: 862px;
+    height: 225px;
+  }
+
+  .new-arc-title{
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+  }
+
+  .new-arc-subtitle{
+    color: #727272;
+    text-align: center;
+  }
+
+  .new-arc-banner img{
+    
+    height: 500px;
+    width: 900px;
+  }
+
+  .arc-btn button{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 24px;
+    border: none;
+    margin-top: 32px;
+    margin-bottom: 50px;
+  }
+
+  /* responsive styles */
+
+  
