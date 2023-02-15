@@ -45,6 +45,7 @@
 
   /* navigation styles ended */
 
+  /* new arctects styled started  */
   .new-arc{
     margin-top: 110px;
     display: flex;
@@ -70,11 +71,13 @@
 
   .new-arc-banner img{
     
-    height: 500px;
-    width: 900px;
+    height: 600px;
+    width: 1000px;
+    border-radius: 9px;
+    margin-bottom: 45px;
   }
 
-  .arc-btn button{
+  .btn{
     border-radius: 8px;
     background: #FF900E;
     color: #FFFFFF;
@@ -85,6 +88,56 @@
     margin-top: 32px;
     margin-bottom: 50px;
   }
+
+  /* new arc styles ended  */
+
+
+  /* quick list styles started  */
+ .quick-list{
+  margin-top: 85px;
+  display: flex;
+  align-items: center;
+ }
+
+.ql-img-section{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 15px;
+  margin-left:150px;
+}
+.ql-img-section div .img{
+  width: 150px;
+  max-width:100%;
+  height:150px;
+  border-radius: 8px;
+}
+
+.ql-info-section{
+  margin-left:50px;
+}
+
+.ql-info-title .grey-clr{
+  font-weight: 500;
+  font-size: 45px;
+  color: #727272;
+
+}
+
+.ql-info-title .black-clr{
+  color: #131313;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.ql-info-title .yellow-clr{
+  font-weight: 700;
+  font-size: 45px;
+  color: #FF900E;
+}
+
+.ql-info-subtitle{
+  color: #727272;
+}
 
   /* responsive styles */
 
@@ -111,6 +164,19 @@
 .new-arc-banner img {
   height: auto;
   width: 100%;
+}
+
+.quick-list{
+  flex-direction:column;
+}
+
+.ql-img-section {
+  grid-template-columns: repeat(1,1fr);
+  margin: auto;
+}
+
+.ql-info-section {
+  margin-left: 26px;
 }
 
 }
