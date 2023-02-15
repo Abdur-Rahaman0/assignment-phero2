@@ -88,4 +88,29 @@
 
   /* responsive styles */
 
-  
+@media only screen and (max-width:576px){
+
+  .navigation{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-logo{
+    margin: 0;
+  }
+
+  .nav-items ul {
+    margin: 0;
+}
+
+.new-arc-info {
+  width:100%;
+  height:100%;
+}
+
+.new-arc-banner img {
+  height: auto;
+  width: 100%;
+}
+
+}
