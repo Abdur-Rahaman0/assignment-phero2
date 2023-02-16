@@ -413,7 +413,7 @@ input{
 
   /* responsive styles */
 
-@media only screen and (max-width:576px){
+@media  screen and (max-width:576px){
 
   .navigation{
     display: flex;
@@ -551,6 +551,11 @@ input{
 .content-title {
   font-size: 36px;
   color: #FFFFFF;
+}
+
+input{
+  display: none;
+
 }
 
 }
