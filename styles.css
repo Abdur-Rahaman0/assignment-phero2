@@ -236,6 +236,181 @@
 
   /* love and enjoy styles ended */
 
+  /* some facts styles started */
+
+  .some-facts{
+    margin-top:130px;
+  }
+.facts-container{
+  text-align: center;
+  
+}
+  .facts-title{
+    font-weight: 700;
+    font-size: 45px;
+  }
+
+  .facts-subtitle{
+    color: #727272;
+
+
+  }
+
+
+.facts-boxes{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 130px;
+  margin-bottom: 180px;
+  
+}
+
+.box-inf{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.facts-box{
+  height: 250px;
+  width: 250px;
+  border: 1px solid #FF900E;
+  border-radius: 8px;
+  
+}
+
+.facts-box:hover{
+  transform: rotate(360deg);
+  transition: ease-in-out 2s;
+  border-radius: 50%;
+}
+
+.box-number{
+  font-weight: 600;
+  font-size: 45px;
+}
+.box-title{
+  font-weight: 600;
+  font-size: 20px;
+  color: #727272;
+}
+
+/* some facts styles ended */
+
+/* our sponsor section styles started */
+
+.sponsor-info-container{
+  text-align: center;
+}
+.sponsor-title{
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.sponsor-subtitle{
+  color: #727272;
+  margin-top: 24px;
+}
+
+.sponsors{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 130px;
+}
+/* our sponsor section styles ended*/
+
+/* beautiful architect section styles srarted  */
+
+  .beautiful-section{
+    margin-bottom: 138px;
+  }
+
+  .img-section{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    
+  }
+
+  .img-section>img{
+    width:80%;
+    border-radius: 9px;
+  }
+  .content-section {
+    height: 250px;
+    width: 500px;
+    background-color: #e0003e;
+    border-radius: 9px;
+    padding: 50px;
+    position: absolute;
+    left: 0;
+    bottom: -136px;
+    margin-left: 20px;
+}
+
+  .content-title{
+    font-size:49px;
+    color: #FFFFFF;
+  }
+
+  .content-heading {
+    font-size: 31px;
+    color: #FFF4E7;
+    margin-top: 10px;
+    margin-bottom: 11px;
+}
+  .content-info{
+    color: #FFFFFF;
+  }
+
+  .content-btn {
+    font-weight: 700;
+    font-size: 19px;
+    padding: 15px;
+    border-radius: 38px;
+    border: none;
+    margin-top: 13px;
+}
+
+input{
+  padding: 19px;
+  border-radius: 27px;
+  border: none;
+  margin-top: 20px;
+  width: 210px;
+}
+
+::placeholder {
+  color: #424242;
+  font-size: 17px;
+  font-weight: 900;
+}
+
+/* beautiful architect section styles ended  */
+
+
+
+
+/* footer section styles started  */
+
+.footer{
+  height: 100%;
+  width:100% ;
+  background: #424242;
+
+}
+
+.footer p{
+ 
+ padding:50px;
+ text-align: center;
+ color: #FFF4E7;
+
+}
+
+/* footer section style ended  */
+
+
   /* responsive styles */
 
 @media only screen and (max-width:576px){
@@ -320,5 +495,62 @@
   color: #FFFFFF;
 }
 
+.facts-boxes {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 130px;
+  margin-bottom: 180px;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.sponsors {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 130px;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.img-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.content-section {
+  height: auto;
+  width: 50%;
+  background-color: #e0003e;
+  border-radius: 9px;
+  padding: 57px;
+  position: static;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.content-heading {
+  font-size: 28px;
+  color: #FFF4E7;
+  margin-bottom: 9px;
+}
+
+.content-btn {
+  font-weight: 700;
+  font-size: 23px;
+  padding: 15px;
+  border-radius: 38px;
+  border: none;
+  margin-top: 25px;
+}
+
+
+.content-title {
+  font-size: 36px;
+  color: #FFFFFF;
+}
 
 }
